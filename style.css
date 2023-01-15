@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;700&family=Lato:wght@400;700&family=Oswald&family=Roboto+Condensed:wght@400;700&family=Sofia+Sans:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Chivo Mono', monospace;
+}
+form{
+    width: 600px;
+    height: 250px;
+}
+.inner{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+input{
+    margin-top: 15px;
+    width: 100vh;
+    height: 30px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+input:placeholder-shown{
+    font-size: 1.02rem;
+    text-align: center;
+    font-size: 1.02rem;
+}
+.container{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.containeritems{
+    border-radius: 10px;
+    background: #ffb347;
+    background: -webkit-linear-gradient(to right, #ffcc33, #ffb347);
+    background: linear-gradient(to right, #ffcc33, #ffb347);
+    border: 1px solid black;
+    padding: 0px 20px 30px 20px;
+}
+button{
+    border: none;
+    height: 35px;
+    font-weight: bold;
+    font-size: 1.03rem;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+button:hover{
+    background-color: #2596be;
+    color: aliceblue;
+}
+#result{
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.03rem;
+}
